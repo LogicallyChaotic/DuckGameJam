@@ -18,10 +18,19 @@ public class Duck_controller : MonoBehaviour
     private bool _ableToMoveDuck = true;
     private bool _mousedOver = false;
     private Vector3 _prevLocation;
+    private void OnEnable()
+    {
+        _duckAnimator.SetBool("Move", true);
+        _duckAnimator.ResetTrigger("duckCaught");
+        _mousedOver = false;
+        _ableToMoveDuck = true;
+    }
+
     private void Awake()
     {
         _duckSpriteRend = _duckBody.GetComponent<SpriteRenderer>();
         _duckRigidbody = GetComponent<Rigidbody2D>();
+        _duckAnimator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -37,6 +46,14 @@ public class Duck_controller : MonoBehaviour
         }
     }
 
+    public Color ReturnColor()
+    {
+        return _duckSpriteRend.color;
+    }
+    public Sprite ReturnSprite()
+    {
+        return _duckSpriteRend.sprite;
+    }
     public void SetDuckColor(Color _colour)
     {
         _duckSpriteRend.color = _colour;
@@ -51,7 +68,7 @@ public class Duck_controller : MonoBehaviour
     {
         _mousedOver = true;
         _duckRigidbody.velocity= Vector3.zero;
-        _duckAnimator.SetTrigger("StopAndBop");
+        _duckAnimator.SetBool("Move", false);
     }
 
     private void OnMouseDown()
@@ -62,11 +79,11 @@ public class Duck_controller : MonoBehaviour
     private void OnMouseExit()
     {
         _mousedOver = false;
-
     }
     private void DuckCaught()
     {
         _duckAnimator.SetTrigger("duckCaught");
+        _mousedOver = false;
     }
     private void DuckDirectionCalibration()
     {
@@ -86,7 +103,8 @@ public class Duck_controller : MonoBehaviour
     {
         if (_ableToMoveDuck && !_mousedOver)
         {
-            _duckAnimator.SetTrigger("move");
+            _duckAnimator.SetBool("Move", true);
+
             _ableToMoveDuck = false;
             _currentDuckForce = new Vector3(Random.Range(_duckForceMinimum, _duckForceMaximum),
                 Random.Range(_duckForceMinimum, _duckForceMaximum),

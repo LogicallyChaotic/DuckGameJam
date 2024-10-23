@@ -32,6 +32,6 @@ Material:
     - _ScrollX: 1.47
     - _ScrollY: 2.59
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.27727836, g: 0.47335035, b: 0.6320754, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

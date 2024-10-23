@@ -113,7 +113,7 @@ Transform:
   m_GameObject: {fileID: 3373708007103927306}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.049250126, y: -0.50035, z: 0}
+  m_LocalPosition: {x: 0.04925013, y: -0.50035, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -290,7 +290,7 @@ Transform:
   m_GameObject: {fileID: 6287011948665934274}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.23671158, y: -0.50035, z: 0}
+  m_LocalPosition: {x: 0.2367116, y: -0.50035, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 7387545272862118288}
   - component: {fileID: 6553950545827594485}
   - component: {fileID: 5183568237347257893}
+  - component: {fileID: 3928138411890607113}
   m_Layer: 0
   m_Name: DuckRound
   m_TagString: Untagged
@@ -380,7 +381,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.10710548, y: -0.27861214, z: -9.893963}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7453560211408150681}
@@ -420,8 +421,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.3452102, y: -0.28997412}
-  m_Radius: 0.8590189
+  m_Offset: {x: -0.39, y: -0.41}
+  m_Radius: 0.44
 --- !u!50 &6553950545827594485
 Rigidbody2D:
   serializedVersion: 4
@@ -461,7 +462,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21175da4d92406e4784b7e80faada587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duckForceMinimum: 50
-  _duckForceMaximum: 200
+  _duckType: 0
+  _duckForceMinimum: -100
+  _duckForceMaximum: 100
   _maxWaitTimeBeforeMoved: 5
   _duckBody: {fileID: 4218644196729746438}
+--- !u!95 &3928138411890607113
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166447520854480193}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2810d91d0555dd848bd354f76c9a4835, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
