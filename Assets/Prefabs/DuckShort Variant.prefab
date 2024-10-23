@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4399642329742284786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5239221
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5780553
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.893963
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232770443717476651, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666948048631800776, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.259
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666948048631800776, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.139
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531881801846119702, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.461
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803121700830017128, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.198
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803121700830017128, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.469
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453560211408150681, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.351
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453560211408150681, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.449
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002778851227024341, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2776938701202464372, guid: 7f36e97c30bd51541833720172724935, type: 3}
+    - target: {fileID: 8166447520854480193, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
+      propertyPath: m_Name
+      value: DuckShort Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dc90d425c9fe4cf4eb8902c17744938f, type: 3}
